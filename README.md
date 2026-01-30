@@ -15,6 +15,7 @@ InfoBox (InfoBox.jsx)
   Pure presentational component that receives info and renders the UI (cards, icons, images).
 
 
+
 ↔ Data & event flow (step-by-step) 🔁
   1. User types a city in SearchBox and submits the form.
   2. SearchBox calls the OpenWeather API (side-effect) and builds a normalized newInfo object.
@@ -22,11 +23,15 @@ InfoBox (InfoBox.jsx)
   4. WeatherApp sets weatherInfo state → React re-renders.
   5. InfoBox receives updated info prop and displays the new weather.
 
-✅ Material UI (MUI) 
+
+
+✅ Material UI (MUI) : 
       Material UI (MUI) is a popular React component library that implements Google's Material Design. 
       It provides ready-made, accessible components (Buttons, Cards, Typography, Icons, etc.) 
       so we can build consistent, responsive UIs faster.
 
-🌤️ OpenWeatherMap API 
+      
+
+🌤️ OpenWeatherMap API :
       OpenWeatherMap (OpenWeather) provides weather data (current weather, forecasts, historical) via simple REST endpoints. 
       For this app we use the Current Weather Data endpoint.
